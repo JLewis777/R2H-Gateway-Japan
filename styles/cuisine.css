@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+header {
+    background-image: url(/IMG/michael-lee-Osakafood-unsplash.jpg);
+    background-size: cover;
+    min-height: 700px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  
+  nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+  .navitem {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family:"Alata";
+      color: white;
+      text-shadow: 2px 2px black;
+      
+    }
+    
+    /* Thinking I might change the color and style of the nav hover  */
+  .navitem:hover {
+      background-color: grey;
+    }
+
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        color: #00FFFF;
+        font-size: 70px;
+        font-family:"Alata";
+        margin-top: 20px;
+        margin-bottom:20px;
+        text-shadow: 2px 2px grey;  
+      }
+      
+      h1 {
+        display: flex;
+        justify-content: center;
+        color: #00FFFF;
+        font-size: 50px;
+        font-family:"Alata";
+        margin-top: 0px;
+        margin-bottom:20px;
+        text-shadow: 2px 2px grey;   
+      }
+      
+      h2 {
+        color: black;
+        text-align: center;
+        font-family: "Alata";
+      }
+
+
+
+
+      body {
+        background-color: #BD9BBD;
+        margin: 0px; 
+      }
+
+
+      img {
+        display: block;
+        margin: 0 auto;
+        
+      }
+
+
+
+
+
+
+
+      .foodOne {
+        width: 700px;
+        min-height: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+
+      .foodTwo {
+        width: 700px;
+        min-height: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+
+
+      .foodThree {
+        width: 700px;
+        min-height: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+
+      .foodFour {
+        width: 700px;
+        min-height: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+
+
+
+      .shadow {
+        box-shadow: 3px 3px grey;
+      }
+
+
+      p {
+        color: black;
+        text-align: center;
+        font-family: "Alata";
+      }
+
+
+
+
+    footer img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto;
+      }
+
+
+    footer {
+        text-align: center;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgray;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: bold;
+        font-family: "Alata";
+      }
+      
+      .fa-facebook-f , .fa-instagram , .fa-twitter , .fa-youtube {
+        color: #BD9BBD;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      
+      .fa-facebook-f:hover , .fa-instagram:hover , .fa-twitter:hover , .fa-youtube:hover {
+        background-color: silver;
+        padding-left: 10px;
+        padding-right: 10px;
+      }

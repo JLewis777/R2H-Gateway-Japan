@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+header {
+    background-image: url(/IMG/osaka\ nightlife.jpg);
+    background-size: cover;
+    min-height: 700px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.navitem {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:"Alata";
+    color: white;
+    text-shadow: 2px 2px black;
+    
+  }
+  
+  /* Thinking I might change the color and style of the nav hover  */
+.navitem:hover {
+    background-color: grey;
+  }
+
+body {
+    background-color: #BD9BBD;
+    margin: 0px; 
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  color: #00FFFF;
+  font-size: 70px;
+  font-family:"Alata";
+  margin-top: 20px;
+  margin-bottom:20px;
+  text-shadow: 2px 2px grey;  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #00FFFF;
+  font-size: 50px;
+  font-family:"Alata";
+  margin-top: 0px;
+  margin-bottom:20px;
+  text-shadow: 2px 2px grey;   
+}
+
+
+
+
+
+section {
+  display: block;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+}
+
+
+.attract1 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+.attract2 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.attract3 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+
+.attract4 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+
+
+.attract5 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+
+.attract6 {
+  width: 700px;
+  min-height: 700px;
+  margin: 0 auto;
+}
+
+
+h2 {
+  color: black;
+  text-align: center;
+  font-family: "Alata";
+}
+
+
+.text1 {
+  color: black;
+  text-align: center;
+  font-family: "Alata";
+
+}
+
+.text2 {
+  color: black;
+  text-align: center;
+  font-family: "Alata";
+}
+
+.textli {
+  color: black;
+  font-family: "Alata";
+  max-width: 550px;
+}
+
+.textli li {
+  padding-bottom: 10px;
+}
+ 
+ 
+ 
+ 
+ /* Still need 6 attractions  */
+ 
+ 
+ .shadow {
+  box-shadow: 3px 3px grey;
+ }
+ 
+ 
+ 
+  footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: "Alata";
+  }
+  
+  .logo {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+
+
+
+  .fa-facebook-f , .fa-instagram , .fa-twitter , .fa-youtube {
+    color: #BD9BBD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-facebook-f:hover , .fa-instagram:hover , .fa-twitter:hover , .fa-youtube:hover {
+    background-color: #d3d3d3;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+  

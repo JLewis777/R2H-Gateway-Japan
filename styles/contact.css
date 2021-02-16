@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: silver;
+  }
+
+  .navitem {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:"Alata";
+    color: silver;
+    text-shadow: 2px 2px black;
+    
+  }
+  
+  /* Thinking I might change the color and style of the nav hover  */
+  .navitem:hover {
+    background-color: white;
+  }
+
+
+.contactbox {
+  font-family: "Alata";
+  text-align: center;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* The float property allows me to posistion this element a certain way (left, right, none) */
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+/* The clear property specifies which sides of an element floating items are allowed to float (left, right, both) */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+ 
+ 
+body {
+  background-image: url(/IMG/osaka\ contact.jpg);
+  background-size: cover;
+  margin: 0px;
+}
+ 
+label {
+  display: block;
+}
+ 
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+ 
+
+footer img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ 
+ 
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: "Alata";
+  }
+  
+  .fa-facebook-f , .fa-instagram , .fa-twitter , .fa-youtube {
+    color: #BD9BBD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-facebook-f:hover , .fa-instagram:hover , .fa-twitter:hover , .fa-youtube:hover {
+    background-color: silver;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+
+
+  @media (max-width: 700px) {
+    section {
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  /* .fa-instagram {
+    color: #BD9BBD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-twitter {
+    color: #BD9BBD;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .fa-youtube {
+    color: #BD9BBD;
+    padding-left: 10px;
+    padding-right: 10px;
+  } */

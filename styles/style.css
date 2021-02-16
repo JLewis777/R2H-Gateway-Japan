@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+/* ^^ The @import is a rule that allows me to another style sheet into this one. i'm using a url from google fonts to be able to use a certain font-family.  */
+header {
+  /* This is the source for the background image for my hero */
+  background-image: url(/IMG/Osaka\ home.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 700px;
+}
+
+/* I aligned the navigation bar using flexbox, which essentially makes it easier to design layout structure without using float or positioning. */
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.navitem {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:"Alata";
+  color: black;
+  text-shadow: 2px 2px grey;
+  text-decoration: none;
+}
+
+/* Thinking I might change the color and style of the nav hover  */
+.navitem:hover {
+  background-color: whitesmoke;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 70px;
+  font-family:"Alata";
+  margin-top: 0px;
+  margin-bottom:20px;
+  text-shadow: 2px 2px white;
+}
+
+/* I plan to make this white text soon  */
+h3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 40px;
+  font-family:"Alata";
+  margin-bottom: 0px;
+  text-shadow: 2px 2px white;
+}
+
+.buttonOne {
+ display: block;
+ border: 5px solid black;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ width: 115px;
+ margin: auto auto;
+ margin-top: 10px;
+ font-family: "Alata";
+ font-weight: bold;                               
+ font-size: 20px;
+ background-color: palevioletred;
+ text-align: center;
+ 
+}
+
+
+div a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* .hero a {
+  text-decoration: none;
+}  */
+
+
+.buttonOne:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+ol {
+  font-weight: bold;
+  font-family: "Alata";
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: large;
+}
+
+/* I temporarily have a background for this text just to visualize padding and margin better. */
+.box1 {
+  font-weight: bold;
+  font-family: "Alata";
+  max-width: 500px;
+  max-height: 700px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+  font-size: large;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+
+.video {
+  width: 1093px;
+  height: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body {
+  background-color:#BD9BBD;
+  margin: 0px;
+}
+
+main {
+display: flex;
+flex-direction: row;
+}
+
+section {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 20px;  
+  padding-right: 0px;
+  border-right: 1px solid black;
+}
+
+aside {
+  width: 100%;
+  margin-right: 15px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding: 20px; 
+  padding-left: 0px; 
+  border-left: 1px solid black;
+}
+
+
+
+h2 {
+  font-family: "Alata";
+  text-align: center;
+  text-shadow: 2px 2px grey;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-family: "Alata";
+}
+
+footer img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.fa-facebook-f , .fa-instagram , .fa-twitter , .fa-youtube {
+  color: #BD9BBD;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-facebook-f:hover , .fa-instagram:hover , .fa-twitter:hover , .fa-youtube:hover {
+  background-color: silver;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main , aside {
+    border: none;
+  }
+}
+
+/* .fa-instagram {
+  color: #BD9BBD;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-twitter {
+  color: #BD9BBD;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-youtube {
+  color: #BD9BBD;
+  padding-left: 10px;
+  padding-right: 10px;
+} */
