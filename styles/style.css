@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 /* ^^ The @import is a rule that allows me to another style sheet into this one. i'm using a url from google fonts to be able to use a certain font-family.  */
 header {
   /* This is the source for the background image for my hero */
@@ -20,8 +20,6 @@ nav a {
   color: black;
 }
 
-
-
 .navitem {
   display: inline-block;
   padding-left: 20px;
@@ -30,30 +28,35 @@ nav a {
   padding-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-  font-family:"Alata";
+  font-family: "Alata";
   color: black;
   text-shadow: 2px 2px grey;
   text-decoration: none;
 }
 
-/* Thinking I might change the color and style of the nav hover  */
 .navitem:hover {
   background-color: whitesmoke;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: black;
   font-size: 70px;
-  font-family:"Alata";
+  font-family: "Alata";
   margin-top: 0px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   text-shadow: 2px 2px white;
 }
 
-/* I plan to make this white text soon  */
-h3 {
+h1 span {
+  color: black;
+  font-size: 40px;
+  font-family: "Alata";
+  margin-bottom: 0px;
+  text-shadow: 2px 2px white;
+}
+
+/* h3 {
   display: flex;
   justify-content: center;
   color: black;
@@ -61,37 +64,33 @@ h3 {
   font-family:"Alata";
   margin-bottom: 0px;
   text-shadow: 2px 2px white;
-}
+} */
 
 .buttonOne {
- display: block;
- border: 5px solid black;
- padding-left: 20px;
- padding-right: 20px;
- padding-bottom: 20px;
- padding-top: 20px;
- width: 115px;
- margin: auto auto;
- margin-top: 10px;
- font-family: "Alata";
- font-weight: bold;                               
- font-size: 20px;
- background-color: palevioletred;
- text-align: center;
- 
+  display: block;
+  border: 5px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 115px;
+  margin: auto auto;
+  margin-top: 10px;
+  font-family: "Alata";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: palevioletred;
+  text-align: center;
 }
-
 
 div a {
   text-decoration: none;
   color: black;
 }
 
-
 /* .hero a {
   text-decoration: none;
 }  */
-
 
 .buttonOne:hover {
   background-color: aliceblue;
@@ -124,7 +123,6 @@ ol {
   justify-content: center;
 }
 
-
 .video {
   width: 1093px;
   height: 500px;
@@ -135,13 +133,13 @@ ol {
 }
 
 body {
-  background-color:#BD9BBD;
+  background-color: #bd9bbd;
   margin: 0px;
 }
 
 main {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 section {
@@ -149,7 +147,7 @@ section {
   margin-right: 0px;
   margin-left: 15px;
   margin-bottom: 15px;
-  padding: 20px;  
+  padding: 20px;
   padding-right: 0px;
   border-right: 1px solid black;
 }
@@ -159,12 +157,10 @@ aside {
   margin-right: 15px;
   margin-left: 0px;
   margin-bottom: 15px;
-  padding: 20px; 
-  padding-left: 0px; 
+  padding: 20px;
+  padding-left: 0px;
   border-left: 1px solid black;
 }
-
-
 
 h2 {
   font-family: "Alata";
@@ -188,28 +184,23 @@ footer img {
   margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-.fa-facebook-f , .fa-instagram , .fa-twitter , .fa-youtube {
-  color: #BD9BBD;
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+  color: #bd9bbd;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.fa-facebook-f:hover , .fa-instagram:hover , .fa-twitter:hover , .fa-youtube:hover {
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
   background-color: silver;
   padding-left: 10px;
   padding-right: 10px;
 }
-
-
-
-
 
 @media (max-width: 700px) {
   section {
@@ -221,7 +212,8 @@ footer img {
     flex-direction: column;
   }
 
-  main , aside {
+  main,
+  aside {
     border: none;
   }
 }
